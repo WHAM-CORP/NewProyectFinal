@@ -1,0 +1,47 @@
+@media screen and (min-width:768px) {
+    .header01{
+        display: flex;
+    }
+    .header01 .logo{
+        text-align: left;
+        font-size: 2rem;
+    }
+    .header01 .datos{
+        text-align: right;       
+    }
+    .cam .menu{
+        display: flex;
+        height: auto;
+        width: auto;
+        margin-top: 0;
+    }
+    .menu .menu-item {
+        margin-right: 10px;
+    }
+    .menu .menu-item .menu_link{
+        font-size: 1.2rem;
+    }
+    .ocu{
+        display: none;
+    }
+    .navmenu{
+        background-color: rgba(0, 0, 0, 1);
+        height: 80px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+    .banner{
+        width: 90%;
+        margin: auto;
+        margin-top: 0;
+    }
+    .banner .imgbanner{
+        height: 600px;
+    }
+    .banner .contenido{
+        font-size: 1.8rem;
+    }
+    
+    
+}

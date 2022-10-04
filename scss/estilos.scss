@@ -1,0 +1,133 @@
+img{
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.logo {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: red;
+}
+
+.datos {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.navmenu {
+    position: relative;
+    padding: 15px;
+    z-index: 2000;
+    .iconomen {
+        color: white;
+        font-size: 1.3rem;
+        cursor: pointer;
+        display: block;
+        border: 1px solid white;
+        border-radius: 15px;
+        margin-top: 3px;
+        margin-left: 8px;
+        text-align: center;
+    }
+
+    .menu {
+        position: absolute;
+        margin-top: 46px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        left: 0;
+        height: 0;
+        overflow: hidden;
+        transition: height .3s linear;
+
+        ul {
+            width: 100%;
+        }
+
+        .menu-item {
+            text-align: center;
+            list-style: none;
+            padding: 10px;
+
+            &:hover {
+                background-color: red;
+            }
+        }
+
+        .menu_link {
+            text-decoration: none;
+            font-size: 1rem;
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        .menu_select {
+            background-color: red;
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .mostrar {
+        height: 235px;
+    }
+
+    .social {
+        position: absolute;
+        right: 10px;
+        .redes {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                margin-right: 30px;
+                color: black;
+                border-radius: 500%;
+                background-color: white;
+                height: 40px;
+                width: 40px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    margin-top: -70px;
+    &::before{
+        content: '';
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        z-index: 1500;
+
+    }
+    .imgbanner {
+        height: 500px;
+        object-fit: cover;     
+    }
+    .contenido{
+        position: absolute;
+        width: 90%;
+        color: white;
+        left: 50%;
+        top: 50%;
+        transform: translatex(-50%) translateY(-50%);
+        z-index: 1600;
+        font-size: 1.2rem;
+    }
+    
+}
