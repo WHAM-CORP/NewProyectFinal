@@ -15,11 +15,8 @@
         width: auto;
         margin-top: 0;
     }
-    .menu .menu-item {
-        margin-right: 10px;
-    }
-    .menu .menu-item .menu_link{
-        font-size: 1.2rem;
+    .redes{
+        margin-top: -6px;
     }
     .ocu{
         display: none;
@@ -32,7 +29,7 @@
         margin-top: 10px;
     }
     .banner{
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-top: 0;
     }
@@ -42,6 +39,72 @@
     .banner .contenido{
         font-size: 1.8rem;
     }
+    .img_column img{
+        height: 300px;
+        width: 400px;
+    }
+    .about p{
+        line-height: 40px;
+    }
+    .combos .esp_img{
+        margin: auto;
+    }
+    .combos p{
+        height: 140px;
+    }
+    .ourteam .img_equipo{
+        margin: auto;
+        height: 350px;
+        width: 350px;
+    }
+    .todo .formulario{
+       width:75%;
+    }
+   
+}
+@media screen and (min-width:992px) {
+    .titulo01 h2{
+        font-size: 1.8rem;
+    }
+    .banner .imgbanner{
+        height: 700px;
+        
+    }
+    .menu .menu-item .menu_link{
+        font-size: 1.2rem;
+    }
+    .newgale_box h2{
+        font-size: 1.7rem;
+    }
+    .todo .formulario{
+        padding: 50px;
+    }
+    .comentt img{
+        width: 50%;
+        object-fit: cover;
+        margin: auto;
+        transition: all .3s linear;
+    }
+    .comentt img:hover{
+        transform: scale(1.1);
+        border-radius: 30px;
+        border: 5px solid brown;
+    }
+   
     
-    
+}
+@media screen and (min-width:1200px) {
+    .combos p{
+        height: 180px;
+    }
+    .banner .imgbanner{
+        height: 800px;
+    }
+    .ourteam .img_equipo{
+        border-radius: 50%;
+        transition: all 2s linear;
+     }
+     .ourteam .img_equipo:hover{
+       transform: rotate(90deg);
+     }
 }

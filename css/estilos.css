@@ -1,7 +1,8 @@
 img {
   width: 100%;
   display: block;
-  max-width: 100%; }
+  max-width: 100%;
+  object-fit: cover; }
 
 .logo {
   font-family: 'Rock Salt', cursive;
@@ -97,3 +98,117 @@ img {
     transform: translatex(-50%) translateY(-50%);
     z-index: 1600;
     font-size: 1.2rem; }
+
+.titulo01 h2 {
+  font-family: 'Rock Salt', cursive;
+  color: red;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.img_column img {
+  border: 5px solid brown; }
+  .img_column img:hover {
+    transform: scale(1.2); }
+
+.about {
+  margin: auto; }
+  .about p {
+    text-align: justify;
+    font-family: 'Delius', cursive; }
+  .about h2 {
+    text-align: center; }
+  .about .masinfo {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-decoration: none; }
+    .about .masinfo:hover {
+      background-color: #d13f09; }
+
+.combos01 .combos {
+  border: 2px solid brown;
+  border-radius: 30px; }
+  .combos01 .combos h3 {
+    color: tomato; }
+  .combos01 .combos .esp_img {
+    margin: auto;
+    border-radius: 30px;
+    border: 5px solid brown;
+    height: 250px;
+    width: 300px; }
+    .combos01 .combos .esp_img:hover {
+      transform: scale(1.2); }
+  .combos01 .combos p {
+    text-align: justify;
+    font-family: 'Delius', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .combos01 .combos a {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin-bottom: 20px; }
+
+.datosfood {
+  text-align: center; }
+  .datosfood .columntxt {
+    text-align: justify; }
+    .datosfood .columntxt p {
+      text-align: center; }
+      .datosfood .columntxt p a {
+        color: white;
+        text-decoration: none; }
+
+.ourteam .img_equipo {
+  border: 3px solid brown;
+  height: 320px; }
+
+.ourteam .desc_equipo {
+  text-align: justify;
+  font-family: 'Delius', cursive;
+  border: 1px solid brown;
+  padding: 10px; }
+
+.newgale_box h2 {
+  font-size: 1.5rem; }
+
+.newgale_box img {
+  height: 350px;
+  width: 450px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid brown; }
+  .newgale_box img:hover {
+    transform: scale(1.1); }
+
+.formulario {
+  border: 5px solid black;
+  border-radius: 50px;
+  padding: 15px; }
+
+.buttonn {
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  text-decoration: none; }
+  .buttonn:hover {
+    color: white; }
+
+.hola .comentt {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
