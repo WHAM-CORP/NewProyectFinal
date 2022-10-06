@@ -246,7 +246,8 @@ img {
 .ourteam {
     .img_equipo {
         border: 3px solid brown;
-        height: 320px;
+        height: 300px;
+        width: 95%;
     }
 
     .desc_equipo {
@@ -296,4 +297,8 @@ img {
         flex-wrap: wrap;
         width: 100%;
     }
+}
+.justificar{
+    text-align: justify;
+    font-family: 'Delius', cursive;
 }

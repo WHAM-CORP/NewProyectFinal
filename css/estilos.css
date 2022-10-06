@@ -170,7 +170,8 @@ img {
 
 .ourteam .img_equipo {
   border: 3px solid brown;
-  height: 320px; }
+  height: 300px;
+  width: 95%; }
 
 .ourteam .desc_equipo {
   text-align: justify;
@@ -212,3 +213,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 100%; }
+
+.justificar {
+  text-align: justify;
+  font-family: 'Delius', cursive; }
